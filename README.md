@@ -36,10 +36,10 @@ SET THE STAGE:
     - Other graphs 
 
 CORE ANALYSIS: 
-    - ARIMA explain (Stability and normality proof + pdqS allocation explanation) 
-    - Roy ratio explain (The formula + Validity)
-    - Compare the results 
+- ARIMA explain (Stability and normality proof + pdqS allocation explanation) 
+- Roy ratio explain (The formula + Validity)
+- Compare the results 
 
 FINISH: 
-    - Which was the best (formula + timeframe)
-    - Comment on how to expand dataset 
+- Which was the best (formula + timeframe)
+- Comment on how to expand dataset 
