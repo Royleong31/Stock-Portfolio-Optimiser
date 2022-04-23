@@ -44,3 +44,13 @@ We compared the returns of the 3 portfolios and found that our portfolio not onl
 Time series data was not covered in the course syllabus, so analysing time series data and building an ARIMA was something new to us. We learnt about how statistics affected the parameters that go into creating the ARIMA model and how we can use graphs to find the best parameters. We also learnt how to write scripts to create the portfolios because we needed to manipulate the raw stock price data into useful data that can be used for portfolio analysis. In terms of data visualisation, we learnt that plotting raw stock prices of each stock against time would give a misleading graph because different stocks have different starting stock prices, so plotting a simple graph of price against time would create a graph that is skewed towards stocks with higher prices. So we learnt that in order to create an accurate representation, normalisation of the data is necessary.
 
 - INPUT MORE HERE
+
+## References
+Fundamental Statistics. Time Series Modeling With Python Code | by Jiahui Wang | Towards Data Science 
+How To Analyse A Single Time Series Variable | by Jiahui Wang | Towards Data Science (medium.com) 
+How To Analyse Multiple Time Series Variables | by Jiahui Wang | Towards Data Science 
+How To Model Time Series Data With Linear Regression | by Jiahui Wang | Towards Data Science (medium.com) 
+Stock Market Forecasting. Prediction of stock market trends is… | by Ibrahim Mohamed | Medium 
+Your guide to the basics of Time Series Modeling | Towards Data Science
+Introduction to ARIMA models (duke.edu) 
+Seasonal ARIMA models | STAT 510 (psu.edu) 
