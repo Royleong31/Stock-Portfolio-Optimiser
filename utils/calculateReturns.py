@@ -1,4 +1,5 @@
 # ?: Calculates the percentage change in the value of each stock from the previous time period
+# ?: percentage change = (currentPrice-previousPrice)*100/previousPrice
 def calculateReturns(portfolio):
     indexes = [i for i in range(portfolio.shape[0])]
     portfolio['indexNum'] = indexes
@@ -104,6 +105,7 @@ def calculateReturns(portfolio):
     portfolioDailyChange = portfolioDailyChange.drop(columns=['AAPL', 'CAH', 'CMCSA', 'DISH', 'GOOG', 'HSY', 'JNJ', 'JPM', 'K', 'MA', 'NFLX', 'UL', 'WBA'])
     return portfolioDailyChange
 
+# ?: Calculates the change in the total portfolio value as compared to the previous month by multiplying the portfolio allocation with the percentage change
 def portfolioReturnFixedAllocation(portfolioDailyChange, stocksAllocation):
     portfolioChangesArr = []
 
@@ -117,6 +119,7 @@ def portfolioReturnFixedAllocation(portfolioDailyChange, stocksAllocation):
         
     return portfolioChangesArr
 
+# ?: Finds the total portfolio values at each month from the percentage change in portfolio value from the previous month
 def calculatePortfolioValue(portfolioChangesArr):
     cumulativeChange = 1
     portfolioValuesArr = []
